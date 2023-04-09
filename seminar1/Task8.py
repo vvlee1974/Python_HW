@@ -13,7 +13,7 @@ k = int(input("Введите число для k: "))
 sum = n * m
 
 if k < sum and (k % n == 0 or k % m == 0):
-    if (n < m and k <= sum - n) or (n > m and k <= sum - m) or (n == m and k <= n or k <= m):
+    if (n < m and k <= sum - n) or (n > m and k <= sum - m) or (n == m and k <= sum - n):
         print("yes")
 else:
     print("no")
