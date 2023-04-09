@@ -13,7 +13,6 @@ countA = 0
 countB = 0
 
 for i in range(n):
-    
     temp = int(input(f"{i + 1} монета: "))
     
     if temp == 0 :
