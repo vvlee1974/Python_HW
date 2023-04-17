@@ -8,13 +8,13 @@ p = int(input("Введите произведение чисел p: "))
 
 flag = True
 
-while flag:
-    for y in range(p):
-        if flag == True:
-            for x in range(s):
-                if s == x + y and p == x * y:
-                    print(f'Первое число: {y}, второе число: {x}')
-                    flag = False
-                    break
-        else:
-            break
+
+for y in range(p):
+    if flag == True:
+        for x in range(s):
+            if s == x + y and p == x * y:
+                print(f'Первое число: {y}, второе число: {x}')
+                flag = False
+                break
+    else:
+        break
