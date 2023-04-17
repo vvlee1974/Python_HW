@@ -6,7 +6,7 @@ k = 0
 
 for n  in range(number):
     n = a ** k
-    if n < number:
+    if n <= number:
         print(f'2 в степени {k} = {n}')
     else:
         break
