@@ -7,18 +7,19 @@
 5
 1 2 3 4 5
 3
--> 1'''
+-> 1
+'''
 
 len_list = int(input("Введите количество элементов в списке: "))
 number = int(input("Введите искомое число: "))
 count = 0
 
 import random
- 
 rand_list=[]
 
 for i in range(len_list):
     rand_list.append(random.randint(1,len_list))
+    
     if rand_list[i] == number:
         count += 1
         
